@@ -5,8 +5,8 @@
 from flickrapi import FlickrAPI
 import pandas as pd
 import sys
-key='19190890fe8b634df715fa8425911e2d'
-secret='f4438e34ff2e9c8a'
+key=''
+secret=''
 def get_urls(image_tag,MAX_COUNT):
     flickr = FlickrAPI(key, secret)
     photos = flickr.walk(text=image_tag,
